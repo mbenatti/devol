@@ -1,0 +1,24 @@
+<!-- Indices written at Sat, 28 Jun 2014 16:13:50 PET -->
+
+<datastore-indexes>
+
+    <!-- Used 2 times in query history -->
+    <datastore-index kind="Cliente" ancestor="false" source="auto">
+        <property name="idUsuario" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+    <!-- Used 3 times in query history -->
+    <datastore-index kind="Prestamo" ancestor="false" source="auto">
+        <property name="estado" direction="asc"/>
+        <property name="idUsuario" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Amortizacion" ancestor="false" source="auto">
+        <property name="idPrestamo" direction="asc"/>
+        <property name="version" direction="desc"/>
+    </datastore-index>
+
+</datastore-indexes>

@@ -1,0 +1,3 @@
+# Module devol
+# RPC service class, partial path of RPC policy file
+com.devol.client.service.ServiceGestionUsuario, 1428236B00E4BA81CF6438231C33C77D.gwt.rpc
